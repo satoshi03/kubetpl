@@ -1,8 +1,9 @@
 package engine
 
 import (
-	log "github.com/Sirupsen/logrus"
 	"testing"
+
+	log "github.com/sirupsen/logrus"
 )
 
 func init() {

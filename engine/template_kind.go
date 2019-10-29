@@ -5,12 +5,13 @@ import (
 	"encoding/base64"
 	"errors"
 	"fmt"
-	log "github.com/Sirupsen/logrus"
-	yamlext "github.com/shyiko/kubetpl/yaml"
-	"gopkg.in/yaml.v2"
 	"runtime"
 	"strconv"
 	"strings"
+
+	yamlext "github.com/satoshi03/kubetpl/yaml"
+	log "github.com/sirupsen/logrus"
+	"gopkg.in/yaml.v2"
 )
 
 type mixedContentTemplate struct {

@@ -3,9 +3,10 @@ package processor
 import (
 	"encoding/base64"
 	"fmt"
-	log "github.com/Sirupsen/logrus"
-	"github.com/shyiko/kubetpl/dotenv"
 	"strings"
+
+	"github.com/satoshi03/kubetpl/dotenv"
+	log "github.com/sirupsen/logrus"
 )
 
 var kubetplDataFromFile = "kubetpl/data-from-file"

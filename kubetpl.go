@@ -3,20 +3,21 @@ package main
 import (
 	"bytes"
 	"fmt"
-	log "github.com/Sirupsen/logrus"
-	"github.com/shyiko/kubetpl/cli"
-	"github.com/shyiko/kubetpl/dotenv"
-	"github.com/shyiko/kubetpl/engine"
-	"github.com/shyiko/kubetpl/engine/processor"
-	yamlext "github.com/shyiko/kubetpl/yaml"
-	"github.com/spf13/cobra"
-	"github.com/spf13/pflag"
-	"gopkg.in/yaml.v2"
 	"io/ioutil"
 	"net/http"
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/satoshi03/kubetpl/cli"
+	"github.com/satoshi03/kubetpl/dotenv"
+	"github.com/satoshi03/kubetpl/engine"
+	"github.com/satoshi03/kubetpl/engine/processor"
+	yamlext "github.com/satoshi03/kubetpl/yaml"
+	log "github.com/sirupsen/logrus"
+	"github.com/spf13/cobra"
+	"github.com/spf13/pflag"
+	"gopkg.in/yaml.v2"
 )
 
 var version string

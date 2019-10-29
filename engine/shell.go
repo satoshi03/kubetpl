@@ -2,9 +2,10 @@ package engine
 
 import (
 	"fmt"
-	yamlext "github.com/shyiko/kubetpl/yaml"
-	"gopkg.in/yaml.v2"
 	"runtime"
+
+	yamlext "github.com/satoshi03/kubetpl/yaml"
+	"gopkg.in/yaml.v2"
 )
 
 type ShellTemplate struct {
